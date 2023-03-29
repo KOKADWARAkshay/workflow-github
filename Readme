@@ -1,1 +1,49 @@
+Task 5 with GitHub Action
+
+
+Prerequisites:
+The sample application code should be hosted on a Git repository.
+You should have a DockerHub account and Docker installed on your machine.
+
+
+Step 1: Set up the repository
+Create a new repository in GitHub for your sample application.
+Clone the repository to your local machine.
+Copy your Spring Boot application code into the repository folder.
+Commit the changes and push the code to the repository.
+
+Step 2: Create a Dockerfile
+Create a new file in the repository called "Dockerfile".
+
+Step 3: Create a GitHub Actions workflow
+In your GitHub repository, click on the "Actions" tab.
+Click on the "Set up a workflow yourself" button.
+
+
+Step 4: Configure DockerHub credentials
+Go to the DockerHub website and log in to your account.
+Click on your profile icon and select "Account Settings".
+Click on "Security".
+Click on "New Access Token" and generate a new token.
+Copy the token.
+
+Step 5: Configure GitHub Secrets
+Go to your GitHub repository and click on "Settings".
+Click on "Secrets".
+Click on "New Repository Secret".
+Enter "DOCKER_USERNAME" as the name and your DockerHub username as the value.
+Click on "Add Secret".
+Click on "New Repository Secret" again.
+Enter "DOCKER_PASSWORD" as the name and your DockerHub token as the value.
+Click on "Add Secret".
+
+Step 6: Test the pipeline
+Make a change to your code and commit it to the repository.
+Go to the "Actions" tab in GitHub and check the status of the workflow.
+If the workflow has completed successfully, the Docker image should be pushed to DockerHub.
+
+
+
+
+
 
