@@ -49,3 +49,15 @@ Set up the pipeline Click on "Configure" for the job. Under the "Build Triggers"
 ![DockerImage](https://user-images.githubusercontent.com/70112790/228626609-dac964c5-2efb-473a-a920-6e09fb968cc4.png)
 
 ![Workflow](https://user-images.githubusercontent.com/70112790/228627712-58559e48-133e-433e-a7ef-74037f1a5283.png)
+
+
+
+## CI/CD Pipeline Other Projects with Different Tool: 
+
+Jenkins
+
+https://github.com/KOKADWARAkshay/docker-jenkins-integration1
+
+Amazon EC2 Virtual Instance and Jenkins 
+
+https://github.com/KOKADWARAkshay/todo-akshay-app
